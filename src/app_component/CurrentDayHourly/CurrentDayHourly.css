@@ -1,0 +1,32 @@
+.currentDayHourly {
+	margin-bottom: 20px;
+}
+
+.currentDayHourly:before {
+	content: "Поминутная погода на ближайший час";
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+	display: block;
+	}
+
+.currentDayHourlyItem {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	display: flex;
+	background: #5ED0BD;
+	justify-content: center;
+}
+
+
+.currentDayHourlyItem:nth-child(odd) {	
+	background: #7EF0DD;
+}
+
+.currentDayHourlyItem__time {
+	width: 100px;
+	padding-right: 20px;
+	font-weight: bold;
+}
